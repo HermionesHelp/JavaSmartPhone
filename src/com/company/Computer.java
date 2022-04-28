@@ -7,9 +7,15 @@ public class Computer {
     private int size;
 
 
-    private void caclulator(){}
+    private int calculator(int number1, int number2){
+        return number1 + number2;
+    }
 
-    private void runApplication(){}
+    private String runApplication(String name){
+        return "You ran " + name;
+    }
 
-    private void accessInternet(){}
+    private String accessInternet(){
+        return "Welcome to AOL.";
+    }
 }

@@ -6,9 +6,15 @@ public class Phone {
     private int size;
     private int phoneNumber;
 
-    private void callSomeone(){}
+    private String callSomeone(int number){
+        return "You called " + number;
+    }
 
-    private void textSomeone(){}
+    private String textSomeone(int number){
+        return "You texted " + number;
+    }
 
-    private void playSnake(){}
+    private String playSnake(){
+        return "You played Snake.";
+    }
 }

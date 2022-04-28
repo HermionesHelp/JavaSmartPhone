@@ -7,9 +7,15 @@ public class Mp3Player {
     private int size;
     private int storage;
 
-    private void playMusic(){}
+    private String playMusic(String songName){
+        return "You are listening to " + songName;
+    }
 
-    private void playSnake(){}
+    private String createPlaylist(String songName, String playlistName){
+        return "You added " + songName + " to the " + playlistName + " playlist.";
+    }
 
-    private void createPlaylist(){}
+    private String playSnake(){
+        return "You played Snake.";
+    }
 }
