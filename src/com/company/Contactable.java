@@ -1,6 +1,6 @@
 package com.company;
 
 public interface Contactable {
-    void callSomeone(int number);
-    void textSomeone(int number);
+    String callSomeone(int number);
+    String textSomeone(int number);
 }
